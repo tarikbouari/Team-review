@@ -1,0 +1,71 @@
+
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh ;
+    
+}
+
+
+.container{
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 45%;
+    align-items: center;
+}
+
+
+.review{
+    background-color: rgb(205, 248, 248);
+    text-align: center;
+    padding: 30px;
+}
+
+.review .div-image{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border-radius: 50%;
+  padding-right: 6px;
+  margin: 0 auto;
+}
+
+img{
+
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    
+}
+.description{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.buttons{
+    padding-top: 20px;
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    margin:0 auto;
+}
+
+button{
+    margin-top: 20px;
+    background: rgb(43, 43, 168);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
